@@ -6,3 +6,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
 }
+.sub_skills{
+  color: white;
+  font-size: 13px;
+}
+.skills{
+  color: violet;
+    font-size: 16px;
+
+}

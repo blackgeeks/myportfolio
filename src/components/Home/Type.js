@@ -8,8 +8,9 @@ function Type() {
         strings: [
           "Full Stack Developer",
           "Django | Flask | Python",
-          "Reactjs | Nodejs | Javascript | Typescript",
-          "MySQL | PSQL | MongoDB",
+          "Angular 10+ | Angular Universal | Typescript",
+          "Reactjs | NextJS | Javascript | Typescript",
+          "PSQL | MYSQL | MongoDB | Redis",
         ],
         autoStart: true,
         loop: true,

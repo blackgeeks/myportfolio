@@ -1,13 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import fahad from "../../Assets/fahad.png";
+import amad from "../../Assets/amad.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaStackOverflow } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -19,20 +18,52 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              <br />Hi there! You're in the right place and have got a suitable person to work with. Let me introduce myself. <br /> <br />
-
-              I have extensive experience of 2+ years working with cutting-edge technologies, and I have excellent skills in building a great, user-friendly, interactive, and highly maintainable frontend. <br /> <br />
-
-              I have worked with many clients and worked on several projects, from mainstream to specifically unique and great enterprise-level projects. I have achieved significant milestones and delivered exceptional and remarkable work to all of my clients.<br /> <br />
-              <i> I have experience working in
-                <b className="purple"> Javascript, Typescript and Python. </b>
-              </i>
               <br />
+              Hi there! You're in the right place and have got a suitable person
+              to work with. Let me introduce myself. <br /> <br />
+              I have extensive experience of 5+ years working with cutting-edge
+              technologies, and I have excellent skills in building a great,
+              user-friendly, interactive, and scale-able applications. <br />{" "}
               <br />
-              I usually used to build
-              <i>
+              I have worked with many clients and worked on several projects,
+              from mainstream to specifically unique and great enterprise-level
+              projects. I have achieved significant milestones and delivered
+              exceptional and remarkable work to all of my clients.
+              <br /> <br />
+              <b>Skills:</b> <br />
+                <b className="purple">
+                  Django{" "}
+                  <span className="sub_skills">
+                    {" "}
+                    (DRFW, Django Channels, Unit Tests, Factory Boy)
+                  </span>{" "}
+                  <br />
+                  Python{" "}
+                  <span className="sub_skills">
+                    {" "}
+                    (Selenium, Scrapy, Beautiful soap )
+                  </span>{" "}
+                  <br />
+                  <span className="skills">
+                    Angular10+, Reactjs, NextJS, Javascript, Typescript
+                  </span>{" "}
+                  <br />
+                  AWS{" "}
+                  <span className="sub_skills">
+                    (Conginito, S3, EC2, Lamda, Elastic Search, cloudformation,
+                    cloud front, cloud watch, SNS, SQS)
+                  </span>
+                  <br />
+                  <span className="skills">
+                    Docker, Docker Swarm ,Google Cloud Services, Heroku, Stripe,
+                    JIRA, Trello, Grafana, Tencent Cloud, Sentry, Mailchimp
+                  </span>
+                </b>
+              <br />
+              {/* <br />I usually used to build */}
+              {/* <i>
                 <b className="purple">Web Technologies and Products. </b>
-              </i>
+              </i> */}
               <br />
               <br />
               {/* Whenever possible, I also apply my passion for developing products
@@ -51,7 +82,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={fahad} className="img-fluid" alt="avatar" />
+              <img src={amad} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -64,7 +95,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/fahdrashid"
+                  href="https://github.com/blackgeeks"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -72,19 +103,20 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
-                  href="https://twitter.com/FahadSohal"
+                  href=""
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+             
+              </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/ifahadrashid/"
+                  href="http://www.linkedin.com/in/amad-ud-din"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -94,12 +126,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/imfahaf/"
+                  href="https://stackoverflow.com/users/6085791/maadi"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <FaStackOverflow />
                 </a>
               </li>
             </ul>
