@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 // import axios from "axios";
-import pdf from "../../Assets/Fahad-Rashid.pdf";
+import pdf from "../../Assets/amad_uddin_fullstack_developer.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -42,20 +42,25 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Senior Software Engineer [Virtual Force Inc.]"
-              date="August 2021 - Present"
+              title="Teamlead & Full stack developer [Hailu Tech Pv Ltd.]"
+              date="July 15 2019 - Present"
               content={[
                 "",
               ]}
             />
-            <br />
-            <br />
 
             <Resumecontent
-              title="Software Engineer [Codility Solutions]"
-              date="October 2019 - August 2021"
+              title="Full stack developer [Septem Systems]"
+              date="August 2018 - July 2019"
               content={[
                 "",
+              ]}
+            />
+               <Resumecontent
+              title="Full stack developer [Brainplow]"
+              date="April 2017 - August 2018"
+              content={[
+                ""
               ]}
             />
             {/* <h3 className="resume-title">Extracurricular Activities</h3>
@@ -76,9 +81,9 @@ function Resume() {
             <h3 className="resume-title">Education</h3>
             <Resumecontent
               title="BS Computer Science"
-              university="University of Management and Technology [Lahore, Punjab]"
+              university="FAST National University [Lahore, Pakistan]"
               date="2015 - 2019"
-              content={[`CGPA: ${3.69}`]}
+              content={[`CGPA: ${3.45}`,`PMNICT Full bright Scholarship`]}
             />
             {/* <Resumecontent
               title="12TH BOARD [ODM Public School,Odisha]"

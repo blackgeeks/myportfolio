@@ -32,17 +32,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/FahadSohal"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/ifahadrashid/"
+                href="http://www.linkedin.com/in/amad-ud-din"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
