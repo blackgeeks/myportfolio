@@ -1,0 +1,6 @@
+
+
+sudo docker build -t teamblackgeeks/profile .
+sudo docker push teamblackgeeks/profile
+docker run -it --rm -p 1337:80 teamblackgeeks/profile
+sudo docker pull teamblackgeeks/profile
