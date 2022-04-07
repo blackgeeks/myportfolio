@@ -3,11 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import doyo from "../../Assets/Projects/doyo.png";
-import erp from "../../Assets/Projects/erp.png";
-import dawn from "../../Assets/Projects/dawn.png";
+import doyo from "../../Assets/Projects/hiwac.png";
+import erp from "../../Assets/Projects/bridge.png";
 import startuptree from "../../Assets/Projects/startuptree.png";
-import topsoilsearch from "../../Assets/Projects/topsoilsearch.png";
 
 function Projects() {
   return (
@@ -38,13 +36,18 @@ function Projects() {
             <ProjectCard
               imgPath={doyo}
               isBlog={false}
-              title="DOYO"
+              title="Hiwac"
               description={[
-                "A food ordering service to make the interaction between customers and restaurants without interfering the waiter that has to take order manually instead it will be an app that facilitate the customers through an app by using the specific QR code displayed on each table. An admin panel for restaurants through which they can manage and deliver food through the portal.",
+                `Hiwac is a next generation end to end import and export solution for the
+                business community. This application is made using cutting edge
+                technologies e.g Angular 8, Django & Python. My core responsibilities in
+                this product are to make the product modules from scratch to end and
+                manage the respective teams.`,
                 "Roles and Resposibilities :",
-                "My role was to add localization using Google translate API and store the translations in MySQL database, further utilize it on the public side of website to accommodate the customers to select any given languages for their easier use. A complete design of making an order which has eight screens is implemented for mobile viewers and made the required API’s in flask. Some changes are also made on admin side of frontend of the website. I worked on this project as a full stack developer."
+                "Collaborated with cross functional team to define, design and ship new features using Python, Javascript, Django and Reactjs."
+
               ]}
-              link="http://doyo.it/"
+              link="https://hiwac.com/authentication/login"
             />
           </Col>
 
@@ -52,24 +55,22 @@ function Projects() {
             <ProjectCard
               imgPath={erp}
               isBlog={false}
-              title="ERP Pack"
+              title="bridgeportclaims"
               description={[
-                "A web-based enterprise-level product that has four key modules.",
-
-                "1. Accounting System",
-                "2. Attendance System",
-                "3. Purchase Order System",
-                "4. Payroll System",
-
-                "The product is versatile in its nature and encompasses all needs of any organization. One can manage problems regarding Finance and Accounts. An organization can manage its attendance and keep tracks of their employees. A Purchase Order system manages all purchase process and keep tracks of all the purchasing goods. Likewise, Payroll system manage everything which has to do with the process of paying employees and filing employment taxes. The Payroll system keeps track of worked hours, calculating wages, withholding taxes and other deductions.",
+                `'bridgeportclaims.com' is a web application designed for the patient
+                claims system in Ohio(US). The sole purpose of this application was to
+                maintain records of claims for a patient and then complete a whole
+                procedure from start to end. I have worked as a front-end developer in
+                this giant health project.`,
                 "Roles and Resposibilities :",
-                "Collaborated with cross functional team to define, design and ship new features using Reactjs library."
+                "Collaborated with cross functional team to define, design and ship new features using Python, Javascript, Django and Reactjs."
+
               ]}
-              link="https://www.erppack.com/"
+              link="https://bridgeportclaims.com/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={dawn}
               isBlog={false}
@@ -81,9 +82,9 @@ function Projects() {
               ]}
               link="https://hiimdawn.com/"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={topsoilsearch}
               isBlog={false}
@@ -94,7 +95,7 @@ function Projects() {
               ]}
               link="https://topsoilsearch.co.uk/"
             />
-          </Col>
+          </Col> */}
 
           {/* <Col md={4} className="project-card">
             <ProjectCard

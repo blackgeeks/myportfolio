@@ -53,10 +53,16 @@ function Home2() {
                     (Conginito, S3, EC2, Lamda, Elastic Search, cloudformation,
                     cloud front, cloud watch, SNS, SQS)
                   </span>
+                  
                   <br />
                   <span className="skills">
                     Docker, Docker Swarm ,Google Cloud Services, Heroku, Stripe,
                     JIRA, Trello, Grafana, Tencent Cloud, Sentry, Mailchimp
+                  </span>
+                  <br />
+                  Certification{" "}
+                  <span className="sub_skills">
+                    (AWS Cloud Practitioner)
                   </span>
                 </b>
               <br />
