@@ -45,12 +45,12 @@ function Home2() {
                   </span>{" "}
                   <br />
                   <span className="skills">
-                    Angular10+, Reactjs, NextJS, Javascript, Typescript
+                    Angular10+, Angular Universal, Reactjs, NextJS, Javascript, Typescript
                   </span>{" "}
                   <br />
                   AWS{" "}
                   <span className="sub_skills">
-                    (Conginito, S3, EC2, Lamda, Elastic Search, cloudformation,
+                    (Conginito, S3, EC2, Lamda, Elastic Search, Cloudformation,
                     cloud front, cloud watch, SNS, SQS)
                   </span>
                   

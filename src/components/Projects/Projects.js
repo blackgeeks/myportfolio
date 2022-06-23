@@ -4,6 +4,8 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import doyo from "../../Assets/Projects/hiwac.png";
+import ciwac from "../../Assets/Projects/ciwac1.png";
+
 import erp from "../../Assets/Projects/bridge.png";
 import startuptree from "../../Assets/Projects/startuptree.png";
 
@@ -70,6 +72,23 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ciwac}
+              isBlog={false}
+              title="Ciwac"
+              description={[
+                `Ciwac is an online ledger system.  It is the first 2 way ledger system which have many
+                 other features. It is full fledged system where a small or big company can manage all its 
+                 finance related issues at a single place. Employee Management, Salary Management,
+                 Attendance Management are the key features which ad on to the ledger system.  `,
+                "Roles and Resposibilities :",
+                "Collaborated with cross functional team to define, design and ship new features using Python, Javascript, Django and Angular."
+
+              ]}
+              link="https://www.ciwac.com/"
+            />
+          </Col>
           {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={dawn}
